@@ -1,0 +1,6 @@
+framework module Pods_GPLottie_Example {
+  umbrella header "Pods-GPLottie_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

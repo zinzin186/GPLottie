@@ -1,0 +1,6 @@
+framework module Pods_GPLottie_Tests {
+  umbrella header "Pods-GPLottie_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

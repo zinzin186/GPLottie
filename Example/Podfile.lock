@@ -1,0 +1,16 @@
+PODS:
+  - GPLottie (0.1.0)
+
+DEPENDENCIES:
+  - GPLottie (from `../`)
+
+EXTERNAL SOURCES:
+  GPLottie:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GPLottie: ae98aff42317806929a9a6dbe8412480b8bfedee
+
+PODFILE CHECKSUM: 582a41d597fea4568b0f3a2a40ea492935877a25
+
+COCOAPODS: 1.10.0
