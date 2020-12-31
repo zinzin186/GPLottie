@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Vu Dinh Din/GPLottie'
+  s.homepage         = 'https://github.com/zinzin186/GPLottie'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vu Dinh Din' => 'vudinhdin@gapo.com.vn' }
-  s.source           = { :git => 'https://github.com/zinzin186/GPLottie', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zinzin186/GPLottie.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'GPLottie' => ['GPLottie/Assets/*.png']
   # }
 
-  s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
+  s.public_header_files = 'GPLottie/Classes/PublicHeaders/*.h'
   s.ios.frameworks = 'UIKit'
   s.osx.frameworks = ['AppKit', 'CoreVideo']
   s.module_name = 'GPLottie'

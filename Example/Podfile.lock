@@ -2,15 +2,20 @@ PODS:
   - GPLottie (0.1.0)
 
 DEPENDENCIES:
-  - GPLottie (from `../`)
+  - GPLottie (from `https://github.com/zinzin186/GPLottie.git`)
 
 EXTERNAL SOURCES:
   GPLottie:
-    :path: "../"
+    :git: https://github.com/zinzin186/GPLottie.git
+
+CHECKOUT OPTIONS:
+  GPLottie:
+    :commit: f6d1b2e36835e224d17532f3f58e80bbd14f036d
+    :git: https://github.com/zinzin186/GPLottie.git
 
 SPEC CHECKSUMS:
-  GPLottie: 60fa53ba85aa99fead69112fd00532d3d36fa86f
+  GPLottie: b71ae3597b0c9df06f8cde7e7f2d335e985602f4
 
-PODFILE CHECKSUM: 582a41d597fea4568b0f3a2a40ea492935877a25
+PODFILE CHECKSUM: 07458089d3432d72f9e8b01aba6efcbd56b2bf67
 
 COCOAPODS: 1.10.0
