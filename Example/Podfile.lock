@@ -9,15 +9,18 @@ PODS:
     - SDWebImage (~> 5.6)
 
 DEPENDENCIES:
-  - GPLottie
+  - GPLottie (from `../`)
   - SDWebImageLottieCoder
 
 SPEC REPOS:
   trunk:
-    - GPLottie
     - librlottie
     - SDWebImage
     - SDWebImageLottieCoder
+
+EXTERNAL SOURCES:
+  GPLottie:
+    :path: "../"
 
 SPEC CHECKSUMS:
   GPLottie: 179379b988ee2aa9999a4499d80f3a4144e40b68
@@ -25,6 +28,6 @@ SPEC CHECKSUMS:
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   SDWebImageLottieCoder: a63b40820ea10d36835d8994531baea838593099
 
-PODFILE CHECKSUM: ff70f39cf57717c948357674cb0dbdecfe8ef7ab
+PODFILE CHECKSUM: 9655d2e5046de49135918aaf20f07ac6b1fe01bc
 
 COCOAPODS: 1.10.0
