@@ -7,7 +7,7 @@
 */
 
 #import <SDWebImage/SDWebImage.h>
-#import <Lottie/Lottie.h>
+#import "LOTAnimationView.h"
 
 /**
  * The asset bundle used for lottie animation to load bitmap images in the animation. If you don't provide this context option, use main bundle instead.

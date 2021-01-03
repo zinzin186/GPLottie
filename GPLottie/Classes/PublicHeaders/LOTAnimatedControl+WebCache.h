@@ -7,7 +7,7 @@
 */
 
 #import <SDWebImage/SDWebImage.h>
-#import <Lottie/Lottie.h>
+#import "LOTAnimatedControl.h"
 
 #if SD_UIKIT
 

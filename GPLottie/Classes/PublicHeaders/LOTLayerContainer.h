@@ -9,8 +9,8 @@
 #import "LOTPlatformCompat.h"
 #import "LOTLayer.h"
 #import "LOTLayerGroup.h"
-#import <Lottie/LOTKeypath.h>
-#import <Lottie/LOTValueDelegate.h>
+#import "LOTKeypath.h"
+#import "LOTValueDelegate.h"
 
 @class LOTValueCallback;
 

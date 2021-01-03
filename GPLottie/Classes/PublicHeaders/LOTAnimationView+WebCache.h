@@ -7,7 +7,7 @@
 */
 
 #import <SDWebImage/SDWebImage.h>
-#import <Lottie/Lottie.h>
+#import "LOTAnimationView.h"
 
 /**
  * Integrates SDWebImage async downloading and caching of remote images with LOTAnimationView.

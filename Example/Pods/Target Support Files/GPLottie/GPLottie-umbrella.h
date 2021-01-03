@@ -10,10 +10,13 @@
 #endif
 #endif
 
+#import "LOTAnimatedControl+WebCache.h"
 #import "LOTAnimatedControl.h"
+#import "LOTAnimatedImage.h"
 #import "LOTAnimatedSwitch.h"
 #import "LOTAnimationCache.h"
 #import "LOTAnimationTransitionController.h"
+#import "LOTAnimationView+WebCache.h"
 #import "LOTAnimationView.h"
 #import "LOTAnimationView_Compat.h"
 #import "LOTAsset.h"

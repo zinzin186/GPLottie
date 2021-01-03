@@ -1,5 +1,6 @@
 PODS:
-  - GPLottie (0.1.0)
+  - GPLottie (0.1.0):
+    - SDWebImage (~> 5.5)
   - librlottie (0.2.0)
   - SDWebImage (5.10.2):
     - SDWebImage/Core (= 5.10.2)
@@ -23,7 +24,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GPLottie: 179379b988ee2aa9999a4499d80f3a4144e40b68
+  GPLottie: 519d9b9532fc67397fec09052a0f5d4d8cfd7e1e
   librlottie: de032c7f7fbe0ac7ce1ee31ddb219c0068adff22
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   SDWebImageLottieCoder: a63b40820ea10d36835d8994531baea838593099

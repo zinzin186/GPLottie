@@ -41,5 +41,6 @@ TODO: Add long description of the pod here.
   s.osx.frameworks = ['AppKit', 'CoreVideo']
   s.module_name = 'GPLottie'
   s.header_dir = 'Lottie'
+  s.dependency 'SDWebImage', '~> 5.5'
   
 end
