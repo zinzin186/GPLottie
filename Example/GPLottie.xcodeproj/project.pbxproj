@@ -314,10 +314,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GPLottie_Example/Pods-GPLottie_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GPLottie/GPLottie.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImageLottieCoder/SDWebImageLottieCoder.framework",
+				"${BUILT_PRODUCTS_DIR}/librlottie/librlottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPLottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImageLottieCoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/librlottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

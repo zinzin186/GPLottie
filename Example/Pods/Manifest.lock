@@ -1,21 +1,30 @@
 PODS:
   - GPLottie (0.1.0)
+  - librlottie (0.2.0)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - SDWebImageLottieCoder (0.1.0):
+    - librlottie (~> 0.1)
+    - SDWebImage (~> 5.6)
 
 DEPENDENCIES:
-  - GPLottie (from `https://github.com/zinzin186/GPLottie.git`)
+  - GPLottie
+  - SDWebImageLottieCoder
 
-EXTERNAL SOURCES:
-  GPLottie:
-    :git: https://github.com/zinzin186/GPLottie.git
-
-CHECKOUT OPTIONS:
-  GPLottie:
-    :commit: f6d1b2e36835e224d17532f3f58e80bbd14f036d
-    :git: https://github.com/zinzin186/GPLottie.git
+SPEC REPOS:
+  trunk:
+    - GPLottie
+    - librlottie
+    - SDWebImage
+    - SDWebImageLottieCoder
 
 SPEC CHECKSUMS:
-  GPLottie: b71ae3597b0c9df06f8cde7e7f2d335e985602f4
+  GPLottie: 179379b988ee2aa9999a4499d80f3a4144e40b68
+  librlottie: de032c7f7fbe0ac7ce1ee31ddb219c0068adff22
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  SDWebImageLottieCoder: a63b40820ea10d36835d8994531baea838593099
 
-PODFILE CHECKSUM: 07458089d3432d72f9e8b01aba6efcbd56b2bf67
+PODFILE CHECKSUM: ff70f39cf57717c948357674cb0dbdecfe8ef7ab
 
 COCOAPODS: 1.10.0

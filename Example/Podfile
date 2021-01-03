@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'GPLottie_Example' do
   pod 'GPLottie'
-
+  pod 'SDWebImageLottieCoder'
   target 'GPLottie_Tests' do
     inherit! :search_paths
 
